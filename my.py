@@ -19,7 +19,7 @@ time.sleep(1)
 for n in range(2000):
  backslash_character=['\n','\b','\t']
  random_backslash_character=random.choice(backslash_character)
- rain_frames=['|',' |','  |','    |','     |','      |','       |','        |','         |','          |','            |','             |         ','           | ','                   |','                      |','                               |','                                       |','                                                     |']
+  rain_frames=['|',' |','  |','    |','     |','      |','       |','        |','         |','          |','            |','             |         ','           | ','                   |','                      |','                               |','                                       |','                                                     |','                                                                                 |','                                                                              |','                                                                                                |','                                                                                                                 |']
  random_rain_frame=random.choice(rain_frames)
  print(f'{Fore.BLACK}{random_rain_frame}{random_backslash_character}')
  time.sleep(0.01)
